@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 3075
+  controlID: 7418
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -65,7 +65,7 @@ MonoBehaviour:
   m_MaximizeOnPlay: 1
   m_VSyncEnabled: 0
   m_Gizmos: 0
-  m_Stats: 1
+  m_Stats: 0
   m_SelectedSizes: 05000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
@@ -178,9 +178,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -78.42324, y: -46.657364, z: 1209.8217}
+    m_Target: {x: 130.26184, y: 157.93073, z: 2369.6729}
     speed: 2
-    m_Value: {x: -78.42324, y: -46.657364, z: 1209.8217}
+    m_Value: {x: 130.26184, y: 157.93073, z: 2369.6729}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 2
@@ -226,13 +226,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.15538375, y: 0.14817442, z: -0.023579082, w: -0.97644997}
+    m_Target: {x: -0.2700982, y: 0.58874965, z: -0.21778083, w: -0.7301389}
     speed: 2
-    m_Value: {x: -0.1553752, y: 0.14816625, z: -0.023577783, w: -0.9763962}
+    m_Value: {x: -0.2700833, y: 0.58871716, z: -0.2177688, w: -0.7300986}
   m_Size:
-    m_Target: 2300.7847
+    m_Target: 1349.9083
     speed: 2
-    m_Value: 2300.7847
+    m_Value: 1349.9083
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -281,7 +281,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 3054
+  controlID: 7321
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -300,7 +300,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 232
-    height: 567
+    height: 612
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 7}
@@ -332,7 +332,7 @@ MonoBehaviour:
     x: 1412
     y: 73
     width: 230
-    height: 546
+    height: 591
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
@@ -379,9 +379,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 567
+    y: 612
     width: 232
-    height: 380
+    height: 335
   m_MinSize: {x: 230, y: 250}
   m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 9}
@@ -411,9 +411,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1412
-    y: 640
+    y: 685
     width: 230
-    height: 359
+    height: 314
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -440,7 +440,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 825e0000
     m_LastClickedID: 24194
-    m_ExpandedIDs: ffffffff00000000ca380000cc380000ce380000d0380000d2380000d4380000d6380000
+    m_ExpandedIDs: ffffffff00000000823900008439000086390000883900008a3900008c3900008e390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -466,9 +466,9 @@ MonoBehaviour:
       m_ResourceFile: 
   m_AssetTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: 3c380000
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000ca380000cc380000ce380000d0380000d2380000d4380000d6380000
+    m_ExpandedIDs: ffffffff00000000823900008439000086390000883900008a3900008c3900008e390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -493,8 +493,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 3c380000
+    m_LastClickedInstanceID: 14396
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
@@ -548,7 +548,7 @@ MonoBehaviour:
   m_MinSize: {x: 276, y: 122}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 3076
+  controlID: 7362
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -611,7 +611,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: -1
+  m_LastInspectedObjectInstanceID: 14396
   m_LastVerticalScrollValue: 0
 --- !u!114 &13
 MonoBehaviour:
