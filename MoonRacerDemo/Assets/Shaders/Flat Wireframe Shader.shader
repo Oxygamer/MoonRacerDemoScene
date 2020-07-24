@@ -28,6 +28,8 @@
 		_Cutoff ("Alpha Cutoff", Range(0, 1)) = 0.5
 
 		_WireframeColor ("Wireframe Color", Color) = (0, 0, 0)
+		_WireframeIntensity ("Wireframe Intensity", Float) = 1
+
 		_WireframeSmoothing ("Wireframe Smoothing", Range(0, 10)) = 1
 		_WireframeThickness ("Wireframe Thickness", Range(0, 10)) = 1
 

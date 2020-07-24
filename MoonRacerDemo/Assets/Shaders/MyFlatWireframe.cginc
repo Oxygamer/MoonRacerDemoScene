@@ -9,6 +9,7 @@
 float3 _WireframeColor;
 float _WireframeSmoothing;
 float _WireframeThickness;
+float _WireframeIntensity;
 
 float3 GetAlbedoWithWireframe (Interpolators i) {
 	float3 albedo = GetAlbedo(i);
@@ -20,7 +21,7 @@ float3 GetAlbedoWithWireframe (Interpolators i) {
 	float3 thickness = deltas * _WireframeThickness;
 	barys = smoothstep(thickness, thickness + smoothing, barys);
 	float minBary = min(barys.x, min(barys.y, barys.z));
-	return lerp(_WireframeColor, albedo, minBary);
+	return lerp(_WireframeColor*_WireframeIntensity, albedo, minBary);
 }
 
 #define ALBEDO_FUNCTION GetAlbedoWithWireframe
