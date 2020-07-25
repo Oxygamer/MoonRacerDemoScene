@@ -119,6 +119,21 @@
     <Reference Include="UnityEditor.UI">
       <HintPath>E:/xSHDR/MoonRacerGit/MoonRacerDemoScene/MoonRacerDemo/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>E:/xSHDR/MoonRacerGit/MoonRacerDemoScene/MoonRacerDemo/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>E:/xSHDR/MoonRacerGit/MoonRacerDemoScene/MoonRacerDemo/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>E:/xSHDR/MoonRacerGit/MoonRacerDemoScene/MoonRacerDemo/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>E:/xSHDR/MoonRacerGit/MoonRacerDemoScene/MoonRacerDemo/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>E:/xSHDR/MoonRacerGit/MoonRacerDemoScene/MoonRacerDemo/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>E:/Games/2019.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
     </Reference>

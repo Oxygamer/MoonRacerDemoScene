@@ -19,9 +19,21 @@ MonoBehaviour:
   blend:
     overrideState: 1
     value: 1
+  Amplitude:
+    overrideState: 1
+    value: 0.25
+  Speed:
+    overrideState: 1
+    value: 0.05
+  BlurMin:
+    overrideState: 1
+    value: 0
+  BlurMax:
+    overrideState: 1
+    value: 0.2
   NoiseTexture:
     overrideState: 1
-    value: {fileID: 2800000, guid: dd3799dd07f7467408492465c12404f6, type: 3}
+    value: {fileID: 2800000, guid: 6d16c8824d38f7d4dbdf3dbdad5476fa, type: 3}
     defaultState: 1
 --- !u!114 &11400000
 MonoBehaviour:
