@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.Rendering.PostProcessing;
 
 [Serializable]
-[PostProcess(typeof(CustomRenderer), PostProcessEvent.AfterStack, "Custom/SuperPosteffect")]
+[PostProcess(typeof(CustomRenderer), PostProcessEvent.BeforeStack, "Custom/SuperPosteffect")]
 public sealed class SuperPosteffect : PostProcessEffectSettings
 {
     [Range(0f, 1f), Tooltip("Grayscale effect intensity.")]
@@ -21,11 +21,19 @@ public sealed class SuperPosteffect : PostProcessEffectSettings
 
 public sealed class CustomRenderer : PostProcessEffectRenderer<SuperPosteffect>
 {
+    Shader currentPosteffect;
+
+    public override void Init()
+    {
+        base.Init();
+        currentPosteffect = Shader.Find("Custom/SuperPosteffect");
+
+    }
     public override void Render(PostProcessRenderContext context)
     {
         float randomNoise = Mathf.Cos(Time.time/2);
         float p0 = Mathf.Clamp(randomNoise,0,settings.Amplitude);
-        var sheet = context.propertySheets.Get(Shader.Find("Custom/SuperPosteffect"));
+        var sheet = context.propertySheets.Get(currentPosteffect);
         sheet.properties.SetFloat("_Blend", settings.blend);
         sheet.properties.SetFloat("_Amplitude", p0);
         sheet.properties.SetFloat("_Speed", settings.Speed);
